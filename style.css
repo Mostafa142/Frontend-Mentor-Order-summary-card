@@ -78,11 +78,11 @@ body {
 .pre-order {
   margin-left: -50px;
 }
-.container .order h1 {
+.container .order h4 {
   color: var(--Dark-blue);
   font-size: 15px;
 }
-.container .order h1 a {
+.container .order h4 a {
   color: var(--Bright-blue);
 }
 .container .order h5 a:hover {
