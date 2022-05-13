@@ -69,16 +69,20 @@ body {
   margin-bottom: 20px;
   border-radius: 15px;
 }
+.container .order > h1 {
+  display: none;
+}
 .container .order > img {
   margin: 0 5px;
 }
 .pre-order {
   margin-left: -50px;
 }
-.container .order h5 {
+.container .order h1 {
   color: var(--Dark-blue);
+  font-size: 15px;
 }
-.container .order h5 a {
+.container .order h1 a {
   color: var(--Bright-blue);
 }
 .container .order h5 a:hover {
