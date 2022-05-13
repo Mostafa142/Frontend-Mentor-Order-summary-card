@@ -76,17 +76,18 @@ body {
 .pre-order {
   margin-left: -50px;
 }
-.container .order > h3 {
+.container .order > .none {
   display: none;
 }
-.container .order h4 {
+.container .order h2 {
   color: var(--Dark-blue);
   font-size: 15px;
 }
-.container .order h4 a {
+.container .order h3 a {
   color: var(--Bright-blue);
+  font-size: 14px;
 }
-.container .order h5 a:hover {
+.container .order h3 a:hover {
   text-decoration: none;
   opacity: 0.8;
 }
