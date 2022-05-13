@@ -61,7 +61,7 @@ body {
 
 .container .order {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #e0e8ff60;
   width: 80%;
@@ -70,7 +70,10 @@ body {
   border-radius: 15px;
 }
 .container .order > img {
-  margin: 0 15px;
+  margin: 0 5px;
+}
+.pre-order {
+  margin-left: -50px;
 }
 .container .order h5 {
   color: var(--Dark-blue);
@@ -82,9 +85,10 @@ body {
   text-decoration: none;
   opacity: 0.8;
 }
-.container .order h5 span {
+.container .order .pre-order span {
   display: inline-block;
   font-weight: 500;
+  font-size: 15px;
   color: var(--Desaturated-blue);
 }
 
