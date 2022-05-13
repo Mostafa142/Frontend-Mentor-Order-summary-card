@@ -49,7 +49,7 @@ body {
   align-items: center;
   padding: 20px 30px;
 }
-.container .content h2 {
+.container .content h1 {
   margin: 12px 0;
   color: var(--Dark-blue);
 }
@@ -69,20 +69,21 @@ body {
   margin-bottom: 20px;
   border-radius: 15px;
 }
-.container .order > h1 {
-  display: none;
-}
+
 .container .order > img {
   margin: 0 5px;
 }
 .pre-order {
   margin-left: -50px;
 }
-.container .order h3 {
+.container .order > h2 {
+  display: none;
+}
+.container .order h2 {
   color: var(--Dark-blue);
   font-size: 15px;
 }
-.container .order h3 a {
+.container .order h2 a {
   color: var(--Bright-blue);
 }
 .container .order h5 a:hover {
