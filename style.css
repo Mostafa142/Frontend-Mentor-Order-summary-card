@@ -115,6 +115,9 @@ body {
   border-radius: 10px;
   box-shadow: rgb(100 100 111 / 65%) 0px 7px 29px 0px;
 }
+.container .btns .btn-order h4{
+  font-size: 14px;
+}
 .container .btns .btn-order:hover {
   opacity: 0.8;
 }
